@@ -1,0 +1,1111 @@
+.jobs {
+  background-color: #f6f9fb;
+  padding: 50px 0;
+}
+
+.course-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 100px;
+  font-size: 34px;
+}
+
+.jobs-heading-title {
+  color: #566c7b;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#slideshow-wrap {
+  display: block;
+  height: 66px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+
+#slideshow-wrap input[type="radio"] {
+  display: none;
+  position: absolute;
+}
+
+#slideshow-wrap #slideshow-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#slideshow-wrap #slideshow-inner ul {
+  height: 100%;
+  width: 2500%;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  transition: left 0.4s cubic-bezier(0.43, 0.49, 0.13, 0.88);
+  display: flex;
+  align-items: center;
+}
+
+#slideshow-wrap #slideshow-inner ul > li {
+  width: 20%;
+  height: 320px;
+  float: right;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#slideshow-wrap #slideshow-inner ul li .swiper-slide-inner {
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #dae3e8;
+  padding: 8px 16px;
+  width: 147px;
+}
+
+#slideshow-wrap #slideshow-inner ul li .swiper-slide-inner img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#slideshow-wrap label {
+  position: absolute;
+  right: -10px;
+  z-index: 10;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#slideshow-wrap label i {
+  color: #c5d3dc;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#slideshow-wrap label:hover ~ .border-wrapper {
+  height: 100px;
+}
+
+#slideshow-wrap #slideshow-inner input[type="checkbox"]:checked ~ label {
+  opacity: 1;
+}
+
+.border-wrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: -30px;
+  height: 0%;
+  transition: all 0.5s linear;
+}
+
+.border-wrapper .border-top-wrapper {
+  width: 5px;
+  background-color: #c5d3dc;
+  margin-left: -5px;
+}
+
+.border-wrapper .border-bottom-wrapper {
+  width: 5px;
+  background-color:#c5d3dc;
+  margin-left: -5px;
+}
+
+#slideshow-wrap label#lable-2-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-3-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-4-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-5-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-6-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-7-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-8-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-9-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-10-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-11-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-12-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-13-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-14-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-15-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-16-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-17-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-18-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-19-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-20-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-21-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-22-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-23-button {
+  display: none;
+}
+
+#slideshow-wrap label#lable-24-button {
+  display: none;
+}
+
+/*start @media */
+
+@media (max-width: 640px) {
+  #slideshow-wrap #slideshow-inner ul > li {
+    width: 20%;
+  }
+
+  #slideshow-wrap #slideshow-inner ul > li {
+    justify-content: center;
+  }
+
+  #slideshow-wrap label {
+    right: -43px !important;
+  }
+
+  #slideshow-wrap #button-1:checked ~ #slideshow-inner > ul {
+    left: 0%;
+  }
+
+  #slideshow-wrap #button-2:checked ~ #slideshow-inner > ul {
+    left: 104.5%;
+  }
+
+  #slideshow-wrap #button-3:checked ~ #slideshow-inner > ul {
+    left: 208.5%;
+  }
+
+  #slideshow-wrap #button-4:checked ~ #slideshow-inner > ul {
+    left: 312.5%;
+  }
+
+  #slideshow-wrap #button-5:checked ~ #slideshow-inner > ul {
+    left: 416.5%;
+  }
+
+  #slideshow-wrap #button-6:checked ~ #slideshow-inner > ul {
+    left: 520.5%;
+  }
+
+  #slideshow-wrap #button-7:checked ~ #slideshow-inner > ul {
+    left: 624.5%;
+  }
+
+  #slideshow-wrap #button-8:checked ~ #slideshow-inner > ul {
+    left: 728.5%;
+  }
+
+  #slideshow-wrap #button-9:checked ~ #slideshow-inner > ul {
+    left: 832.5%;
+  }
+
+  #slideshow-wrap #button-10:checked ~ #slideshow-inner > ul {
+    left: 936.5%;
+  }
+
+  #slideshow-wrap #button-11:checked ~ #slideshow-inner > ul {
+    left: 1040.5%;
+  }
+
+  #slideshow-wrap #button-12:checked ~ #slideshow-inner > ul {
+    left: 1144.5%;
+  }
+
+  #slideshow-wrap #button-13:checked ~ #slideshow-inner > ul {
+    left: 1248.5%;
+  }
+
+  #slideshow-wrap #button-14:checked ~ #slideshow-inner > ul {
+    left: 1352.5%;
+  }
+
+  #slideshow-wrap #button-15:checked ~ #slideshow-inner > ul {
+    left: 1456.5%;
+  }
+
+  #slideshow-wrap #button-16:checked ~ #slideshow-inner > ul {
+    left: 1560.5%;
+  }
+
+  #slideshow-wrap #button-17:checked ~ #slideshow-inner > ul {
+    left: 1664.5%;
+  }
+
+  #slideshow-wrap #button-18:checked ~ #slideshow-inner > ul {
+    left: 1768.5%;
+  }
+
+  #slideshow-wrap #button-19:checked ~ #slideshow-inner > ul {
+    left: 1872.5%;
+  }
+
+  #slideshow-wrap #button-20:checked ~ #slideshow-inner > ul {
+    left: 1976.5%;
+  }
+
+  #slideshow-wrap #button-21:checked ~ #slideshow-inner > ul {
+    left: 2080.5%;
+  }
+
+  #slideshow-wrap #button-22:checked ~ #slideshow-inner > ul {
+    left: 2187%;
+  }
+
+  #slideshow-wrap #button-23:checked ~ #slideshow-inner > ul {
+    left: 2292%;
+  }
+
+  #slideshow-wrap #button-24:checked ~ #slideshow-inner > ul {
+    left: 2396%;
+  }
+
+  #slideshow-wrap input#button-1:checked ~ label#lable-2-button {
+    display: inline-block;
+  }
+
+  #slideshow-wrap input#button-2:checked ~ label#lable-3-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-3:checked ~ label#lable-4-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-4:checked ~ label#lable-5-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-5:checked ~ label#lable-6-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-6:checked ~ label#lable-7-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-7:checked ~ label#lable-8-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-8:checked ~ label#lable-9-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-9:checked ~ label#lable-10-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-10:checked ~ label#lable-11-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-11:checked ~ label#lable-12-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-12:checked ~ label#lable-13-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-13:checked ~ label#lable-14-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-14:checked ~ label#lable-15-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-15:checked ~ label#lable-16-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-16:checked ~ label#lable-17-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-17:checked ~ label#lable-18-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-18:checked ~ label#lable-19-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-19:checked ~ label#lable-20-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-20:checked ~ label#lable-21-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-21:checked ~ label#lable-22-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-22:checked ~ label#lable-23-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-23:checked ~ label#lable-24-button {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 782px) and (max-width: 992px) {
+  #slideshow-wrap #slideshow-inner ul li .swiper-slide-inner {
+    width: 127.667px;
+  }
+
+  #slideshow-wrap label {
+    right: -43px !important;
+  }
+
+  #slideshow-wrap input#button-1:checked ~ label#lable-2-button {
+    display: inline-block;
+  }
+
+  #slideshow-wrap input#button-2:checked ~ label#lable-3-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-3:checked ~ label#lable-4-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-4:checked ~ label#lable-5-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-5:checked ~ label#lable-6-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-6:checked ~ label#lable-7-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-7:checked ~ label#lable-8-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-8:checked ~ label#lable-9-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-9:checked ~ label#lable-10-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-10:checked ~ label#lable-11-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-11:checked ~ label#lable-12-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-12:checked ~ label#lable-13-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-13:checked ~ label#lable-14-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-14:checked ~ label#lable-15-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-15:checked ~ label#lable-16-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-16:checked ~ label#lable-17-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-17:checked ~ label#lable-18-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-18:checked ~ label#lable-19-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-19:checked ~ label#lable-20-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-20:checked ~ label#lable-21-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-21:checked ~ label#lable-22-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-22:checked ~ label#lable-23-button {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #slideshow-wrap label {
+    right: -10px !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 782px) {
+  #slideshow-wrap #slideshow-inner ul > li {
+    width: 2%;
+  }
+
+  #slideshow-wrap label {
+    right: -43px;
+  }
+
+  #slideshow-wrap #slideshow-inner ul > li {
+    justify-content: center;
+  }
+
+  #slideshow-wrap #button-1:checked ~ #slideshow-inner > ul {
+    left: 0;
+  }
+
+  #slideshow-wrap #button-2:checked ~ #slideshow-inner > ul {
+    left: 50%;
+  }
+
+  #slideshow-wrap #button-3:checked ~ #slideshow-inner > ul {
+    left: 100%;
+  }
+
+  #slideshow-wrap #button-4:checked ~ #slideshow-inner > ul {
+    left: 150%;
+  }
+
+  #slideshow-wrap #button-5:checked ~ #slideshow-inner > ul {
+    left: 200%;
+  }
+
+  #slideshow-wrap #button-6:checked ~ #slideshow-inner > ul {
+    left: 250%;
+  }
+
+  #slideshow-wrap #button-7:checked ~ #slideshow-inner > ul {
+    left: 300%;
+  }
+
+  #slideshow-wrap #button-8:checked ~ #slideshow-inner > ul {
+    left: 350%;
+  }
+
+  #slideshow-wrap #button-9:checked ~ #slideshow-inner > ul {
+    left: 400%;
+  }
+
+  #slideshow-wrap #button-10:checked ~ #slideshow-inner > ul {
+    left: 450%;
+  }
+
+  #slideshow-wrap #button-11:checked ~ #slideshow-inner > ul {
+    left: 500%;
+  }
+
+  #slideshow-wrap #button-12:checked ~ #slideshow-inner > ul {
+    left: 550%;
+  }
+
+  #slideshow-wrap #button-13:checked ~ #slideshow-inner > ul {
+    left: 600%;
+  }
+
+  #slideshow-wrap #button-14:checked ~ #slideshow-inner > ul {
+    left: 650%;
+  }
+
+  #slideshow-wrap #button-15:checked ~ #slideshow-inner > ul {
+    left: 700%;
+  }
+
+  #slideshow-wrap #button-16:checked ~ #slideshow-inner > ul {
+    left: 750%;
+  }
+
+  #slideshow-wrap #button-17:checked ~ #slideshow-inner > ul {
+    left: 800%;
+  }
+
+  #slideshow-wrap #button-18:checked ~ #slideshow-inner > ul {
+    left: 850%;
+  }
+
+  #slideshow-wrap #button-19:checked ~ #slideshow-inner > ul {
+    left: 900%;
+  }
+
+  #slideshow-wrap #button-20:checked ~ #slideshow-inner > ul {
+    left: 950%;
+  }
+
+  #slideshow-wrap #button-21:checked ~ #slideshow-inner > ul {
+    left: 1000%;
+  }
+
+  #slideshow-wrap #button-22:checked ~ #slideshow-inner > ul {
+    left: 1050%;
+  }
+
+  #slideshow-wrap #button-23:checked ~ #slideshow-inner > ul {
+    left: 1100%;
+  }
+
+  #slideshow-wrap input#button-1:checked ~ label#lable-2-button {
+    display: inline-block;
+  }
+
+  #slideshow-wrap input#button-2:checked ~ label#lable-3-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-3:checked ~ label#lable-4-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-4:checked ~ label#lable-5-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-5:checked ~ label#lable-6-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-6:checked ~ label#lable-7-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-7:checked ~ label#lable-8-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-8:checked ~ label#lable-9-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-9:checked ~ label#lable-10-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-10:checked ~ label#lable-11-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-11:checked ~ label#lable-12-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-12:checked ~ label#lable-13-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-13:checked ~ label#lable-14-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-14:checked ~ label#lable-15-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-15:checked ~ label#lable-16-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-16:checked ~ label#lable-17-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-17:checked ~ label#lable-18-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-18:checked ~ label#lable-19-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-19:checked ~ label#lable-20-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-20:checked ~ label#lable-21-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-21:checked ~ label#lable-22-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-22:checked ~ label#lable-23-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-23:checked ~ label#lable-24-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 782px) and (max-width: 992px) {
+  #slideshow-wrap #slideshow-inner ul li .swiper-slide-inner {
+    width: 127.667px;
+  }
+
+  #slideshow-wrap label {
+    right: -43px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  #slideshow-wrap #slideshow-inner ul li .swiper-slide-inner {
+    width: 183.667px;
+  }
+
+  #slideshow-wrap #slideshow-inner ul li .swiper-slide-inner img {
+    width: 120px;
+  }
+
+  #slideshow-wrap label {
+    right: -100px;
+  }
+}
+
+@media (min-width: 782px) and (max-width: 1025px) {
+  #slideshow-wrap #slideshow-inner ul > li {
+    width: 1.432%;
+  }
+
+  #slideshow-wrap #button-1:checked ~ #slideshow-inner > ul {
+    left: 0;
+  }
+
+  #slideshow-wrap #button-2:checked ~ #slideshow-inner > ul {
+    left: 35.7%;
+  }
+
+  #slideshow-wrap #button-3:checked ~ #slideshow-inner > ul {
+    left: 71.5%;
+  }
+
+  #slideshow-wrap #button-4:checked ~ #slideshow-inner > ul {
+    left: 107.3%;
+  }
+
+  #slideshow-wrap #button-5:checked ~ #slideshow-inner > ul {
+    left: 143.15%;
+  }
+
+  #slideshow-wrap #button-6:checked ~ #slideshow-inner > ul {
+    left: 178.86%;
+  }
+
+  #slideshow-wrap #button-7:checked ~ #slideshow-inner > ul {
+    left: 214.7%;
+  }
+
+  #slideshow-wrap #button-8:checked ~ #slideshow-inner > ul {
+    left: 250.5%;
+  }
+
+  #slideshow-wrap #button-9:checked ~ #slideshow-inner > ul {
+    left: 286.3%;
+  }
+
+  #slideshow-wrap #button-10:checked ~ #slideshow-inner > ul {
+    left: 322.1%;
+  }
+
+  #slideshow-wrap #button-11:checked ~ #slideshow-inner > ul {
+    left: 357.86%;
+  }
+
+  #slideshow-wrap #button-12:checked ~ #slideshow-inner > ul {
+    left: 393.68%;
+  }
+
+  #slideshow-wrap #button-13:checked ~ #slideshow-inner > ul {
+    left: 429.5%;
+  }
+
+  #slideshow-wrap #button-14:checked ~ #slideshow-inner > ul {
+    left: 465.3%;
+  }
+
+  #slideshow-wrap #button-15:checked ~ #slideshow-inner > ul {
+    left: 501.15%;
+  }
+
+  #slideshow-wrap #button-16:checked ~ #slideshow-inner > ul {
+    left: 536.9%;
+  }
+
+  #slideshow-wrap #button-17:checked ~ #slideshow-inner > ul {
+    left: 572.68%;
+  }
+
+  #slideshow-wrap #button-18:checked ~ #slideshow-inner > ul {
+    left: 608.45%;
+  }
+
+  #slideshow-wrap #button-19:checked ~ #slideshow-inner > ul {
+    left: 644.26%;
+  }
+
+  #slideshow-wrap #button-20:checked ~ #slideshow-inner > ul {
+    left: 680.18%;
+  }
+
+  #slideshow-wrap #button-21:checked ~ #slideshow-inner > ul {
+    left: 715.83%;
+  }
+
+  #slideshow-wrap #button-22:checked ~ #slideshow-inner > ul {
+    left: 751.76%;
+  }
+
+  #slideshow-wrap input#button-1:checked ~ label#lable-2-button {
+    display: inline-block;
+  }
+
+  #slideshow-wrap input#button-2:checked ~ label#lable-3-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-3:checked ~ label#lable-4-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-4:checked ~ label#lable-5-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-5:checked ~ label#lable-6-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-6:checked ~ label#lable-7-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-7:checked ~ label#lable-8-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-8:checked ~ label#lable-9-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-9:checked ~ label#lable-10-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-10:checked ~ label#lable-11-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-11:checked ~ label#lable-12-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-12:checked ~ label#lable-13-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-13:checked ~ label#lable-14-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-14:checked ~ label#lable-15-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-15:checked ~ label#lable-16-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-16:checked ~ label#lable-17-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-17:checked ~ label#lable-18-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-18:checked ~ label#lable-19-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-19:checked ~ label#lable-20-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-20:checked ~ label#lable-21-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-21:checked ~ label#lable-22-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-22:checked ~ label#lable-23-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+  #slideshow-wrap #slideshow-inner ul li .swiper-slide-inner {
+    width: 122.2px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #slideshow-wrap #slideshow-inner ul > li {
+    width: 0.81%;
+  }
+
+  #slideshow-wrap label {
+    right: -100px;
+  }
+
+  #slideshow-wrap input#button-1:checked ~ label#lable-2-button {
+    display: inline-block;
+  }
+
+  #slideshow-wrap input#button-2:checked ~ label#lable-3-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-3:checked ~ label#lable-4-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-4:checked ~ label#lable-5-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-5:checked ~ label#lable-6-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-6:checked ~ label#lable-7-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-7:checked ~ label#lable-8-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-8:checked ~ label#lable-9-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-9:checked ~ label#lable-10-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-10:checked ~ label#lable-11-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-11:checked ~ label#lable-12-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-12:checked ~ label#lable-13-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-13:checked ~ label#lable-14-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-14:checked ~ label#lable-15-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-15:checked ~ label#lable-16-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-16:checked ~ label#lable-17-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-17:checked ~ label#lable-18-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-18:checked ~ label#lable-19-button {
+    display: block;
+  }
+
+  #slideshow-wrap input#button-19:checked ~ label#lable-20-button {
+    display: block;
+  }
+
+  #slideshow-wrap #button-1:checked ~ #slideshow-inner > ul {
+    left: -0.05%;
+  }
+
+  #slideshow-wrap #button-2:checked ~ #slideshow-inner > ul {
+    left: 20.2%;
+  }
+
+  #slideshow-wrap #button-3:checked ~ #slideshow-inner > ul {
+    left: 40.45%;
+  }
+
+  #slideshow-wrap #button-4:checked ~ #slideshow-inner > ul {
+    left: 60.7%;
+  }
+
+  #slideshow-wrap #button-5:checked ~ #slideshow-inner > ul {
+    left: 80.95%;
+  }
+
+  #slideshow-wrap #button-6:checked ~ #slideshow-inner > ul {
+    left: 101.2%;
+  }
+
+  #slideshow-wrap #button-7:checked ~ #slideshow-inner > ul {
+    left: 121.45%;
+  }
+
+  #slideshow-wrap #button-8:checked ~ #slideshow-inner > ul {
+    left: 141.7%;
+  }
+
+  #slideshow-wrap #button-9:checked ~ #slideshow-inner > ul {
+    left: 161.95%;
+  }
+
+  #slideshow-wrap #button-10:checked ~ #slideshow-inner > ul {
+    left: 182.2%;
+  }
+
+  #slideshow-wrap #button-11:checked ~ #slideshow-inner > ul {
+    left: 202.45%;
+  }
+
+  #slideshow-wrap #button-12:checked ~ #slideshow-inner > ul {
+    left: 222.7%;
+  }
+
+  #slideshow-wrap #button-13:checked ~ #slideshow-inner > ul {
+    left: 242.95%;
+  }
+
+  #slideshow-wrap #button-14:checked ~ #slideshow-inner > ul {
+    left: 263.2%;
+  }
+
+  #slideshow-wrap #button-15:checked ~ #slideshow-inner > ul {
+    left: 283.45%;
+  }
+
+  #slideshow-wrap #button-16:checked ~ #slideshow-inner > ul {
+    left: 303.69%;
+  }
+
+  #slideshow-wrap #button-17:checked ~ #slideshow-inner > ul {
+    left: 323.965%;
+  }
+
+  #slideshow-wrap #button-18:checked ~ #slideshow-inner > ul {
+    left: 344.2%;
+  }
+
+  #slideshow-wrap #button-19:checked ~ #slideshow-inner > ul {
+    left: 364.45%;
+  }
+
+  #slideshow-wrap #button-20:checked ~ #slideshow-inner > ul {
+    left: 384.7%;
+  }
+}
+
+/*end @media */
+
+.jobs .jobs-sub-title {
+  margin-top: 20px;
+  text-align: center;
+  color: #79848c;
+  font-size: 16px;
+  font-family: Vazir-Thin;
+  font-weight: 100;
+}

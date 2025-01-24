@@ -1,0 +1,42 @@
+@import "_topmenu.css";
+@import "_nav.css";
+@import "_header.css";
+@import "_route.css";
+@import "_jobs.css";
+@import "_academy.css";
+@import "_footer.css";
+@import "_darkmode.css";
+
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir.eot") format("eot"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir-Medium;
+  src: url("../fonts/Vazir-Medium.eot") format("eot"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir-Light;
+  src: url("../fonts/Vazir-Light.eot") format("eot"),
+    url("../fonts/Vazir-Light.woff") format("woff"),
+    url("../fonts/Vazir-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir-Thin;
+  src: url("../fonts/Vazir-Thin.eot") format("eot"),
+    url("../fonts/Vazir-Thin.woff") format("woff"),
+    url("../fonts/Vazir-Thin.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

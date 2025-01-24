@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assets/css/style-grid-system.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- start darkmode section -->
+
+    <input type="checkbox" id="darkmode">
+    <label for="darkmode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </label>
+
+
+    <!-- end darkmode section -->
+
+    <!-- start topmenu section -->
+    <div class="topmenu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="top-bar-inner">
+                                <div class="mobile-menu">
+                                    <input id="mobile-toggle" type="checkbox" onclick="myFunc();">
+                                    <label class="toggle-btn" for="mobile-toggle">
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                    </label>
+                                </div>
+                                <div class="logo">
+                                    <img src="assets/img/logo-header.png" alt="">
+                                    <div class="logo-content">
+                                        <span>از یادگیری تا ورود به بازار کار</span>
+                                    </div>
+                                </div>
+                                <div class="left-side">
+                                    <div class="search">
+                                        <form class="relative" action="">
+                                            <input type="search" placeholder="عنوان مد نظر خود را جست و جو کنید ...">
+                                            <button class="absolute" type="submit">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="cart">
+                                        <a href="#">
+                                            <span class="icon-shopping-cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="login login-oficial relative">
+                                        <input type="checkbox" id="login-oficial-btn">
+                                        <label for="login-oficial-btn">
+                                            <span class="login-btn" href="#"></a>
+                                                <span class="login-btn">ورود / ثبت نام</span>
+                                        </label>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">پروفایل</a></li>
+                                            <li><a href="#">خروج</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="login login-mobile">
+                                        <input type="checkbox" id="login-mobile-btn">
+                                        <label for="login-mobile-btn">
+                                            <span class="login-icon" href="#"></a>
+                                                <span class="login-icon">
+                                                    <i class="fas fa-user-alt"></i>
+                                                </span>
+                                        </label>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">پروفایل</a></li>
+                                            <li><a href="#">خروج</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mobile-search col-12">
+                            <form action="">
+                                <input type="search" placeholder="عنوان مد نظر خود را جستجو کنید ...">
+                                <button class="absolute" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end topmenu section -->
+
+    <!-- start menu  section -->
+    <nav class="mainmenu " id="mynav">
+        <div class="container">
+            <div class="row">
+                <div class="header-nav">
+                    <ul>
+                        <li><a href="#">دوره های متخصص</a></li>
+                        <li><a href="#">سرفصل ها</a></li>
+                        <li><a href="#">آخرین جلسات</a></li>
+                        <li><a href="#">پرسش و پاسخ</a></li>
+                        <li><a href="#">پایگاه دانش</a></li>
+                        <li><a href="#">برترین دانشجویان</a></li>
+                    </ul>
+                </div>
+                <div class="header-left">
+                    <div class="cart relative">
+                        <a href="#">
+                            <span class="icon-shopping-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end menu section -->
+
+    <!-- start header  section -->
+    <header>
+
+        <div class="search-box">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-s-12 col-md-12 col-l-12 col-xl-12">
+                        <div class="search-box_inner">
+                            <h2 class="search-box_inner-title">
+
+                                از یادگیری تا ورود به بازار کار
+                            </h2>
+
+                            <div class="search-box-inner-search">
+                                <form>
+                                    <input type="search" placeholder="چه آموزشی نیاز داری؟">
+                                    <button type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- end header section -->
+
+    <!-- start route section -->
+    <section class="route">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-s-12 col-md-12 col-l-12">
+                    <div class="route-heading">
+                        <h2 class="route-heading-title">
+                            مسیر متخصص شدن !
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="route-content">
+                <div class="row">
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-android-128.png" alt="">
+                                    <p class="route-content-inner-title">Android</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-php-128.png" alt="">
+                                    <p class="route-content-inner-title">PHP</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-js-128.png" alt="">
+                                    <p class="route-content-inner-title">Javascript</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-ui-128.png" alt="">
+                                    <p class="route-content-inner-title">UI Design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-webdesign-128.png" alt="">
+                                    <p class="route-content-inner-title">Web Dev</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-wp-128.png" alt="">
+                                    <p class="route-content-inner-title">Wordpress</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/python.png" alt="">
+                                    <p class="route-content-inner-title">Data Science</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-android-128.png" alt="">
+                                    <p class="route-content-inner-title">Python Web</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-s-6 col-md-3 col-l-2 col-xl-2">
+                        <a href="">
+                            <div class="route-content-item">
+                                <div class="route-content-inner">
+                                    <img class="img-responsive route-content-item-inner-icon"
+                                        src="assets/img/sm-laravel-128.png" alt="">
+                                    <p class="route-content-inner-title">Projects</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end route section -->
+
+    <!-- start jobs dection -->
+    <section class="jobs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-s-12 col-ms-12 col-l-12 col-lg-12"
+                    style="padding-right: 0px !important; padding-left: 0 !important;">
+                    <div class="jobs-heading">
+                        <h2 class="jobs-heading-title">
+                            دانشجویان سون لرن کجا هستند؟
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="  margin-right: -15px;
+            margin-left: -15px;">
+                <div id="slideshow-wrap">
+
+                    <input type="radio" id="button-1" name="contorol" checked>
+                    <label for="button-1" id="lable-1-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-2" name="contorol">
+                    <label for="button-2" id="lable-2-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-3" name="contorol">
+                    <label for="button-3" id="lable-3-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-4" name="contorol">
+                    <label for="button-4" id="lable-4-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-5" name="contorol">
+                    <label for="button-5" id="lable-5-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-6" name="contorol">
+                    <label for="button-6" id="lable-6-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-7" name="contorol">
+                    <label for="button-7" id="lable-7-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-8" name="contorol">
+                    <label for="button-8" id="lable-8-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-9" name="contorol">
+                    <label for="button-9" id="lable-9-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-10" name="contorol">
+                    <label for="button-10" id="lable-10-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-11" name="contorol">
+                    <label for="button-11" id="lable-11-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-12" name="contorol">
+                    <label for="button-12" id="lable-12-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-13" name="contorol">
+                    <label for="button-13" id="lable-13-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-14" name="contorol">
+                    <label for="button-14" id="lable-14-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-15" name="contorol">
+                    <label for="button-15" id="lable-15-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-16" name="contorol">
+                    <label for="button-16" id="lable-16-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-17" name="contorol">
+                    <label for="button-17" id="lable-17-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-18" name="contorol">
+                    <label for="button-18" id="lable-18-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-19" name="contorol">
+                    <label for="button-19" id="lable-19-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-20" name="contorol">
+                    <label for="button-20" id="lable-20-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-21" name="contorol">
+                    <label for="button-21" id="lable-21-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-22" name="contorol">
+                    <label for="button-22" id="lable-22-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-23" name="contorol">
+                    <label for="button-23" id="lable-23-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+                    <input type="radio" id="button-24" name="contorol">
+                    <label for="button-24" id="lable-24-button">
+                        <i class="fal fa-angle-double-right"></i>
+                    </label>
+
+
+                    <div id="slideshow-inner">
+                        <ul>
+                            <li id="slide-1">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-00.png" alt="">
+
+                                </div>
+                            </li>
+                            <li id="slide-2">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-01.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-3">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-02.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-4">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-03.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-5">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-04.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-6">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-05.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-7">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-06.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-8">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-07.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-9">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-08.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-10">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-09.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-11">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-10.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-12">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-11.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-13">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-12.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-14">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-13.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-15">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-14.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-16">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-15.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-17">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-16.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-18">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-17.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-19">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-18.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-20">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-19.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-21">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-20.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-22">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-21.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-23">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-22.png" alt="">
+                                </div>
+                            </li>
+                            <li id="slide-24">
+                                <div class="swiper-slide-inner">
+                                    <img class="slide-img" src="assets/img/company-23.png" alt="">
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="border-wrapper">
+                        <div class="border-top-wrapper">
+                            <div class="border-top"></div>
+                        </div>
+                        <div class="border-bottom-wrapper">
+                            <div class="border-bottom"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row" style="  margin-left: -15px;
+            margin-right: -15px;">
+                <div class="col-12">
+                    <p class="jobs-sub-title">
+                        همه بخش های پلتفرم آکادمی سون لرن توسط دانشجویان دوره های متتخصص آکادمی سون لرن توسعه داده
+                        شده است
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end jobs section -->
+
+    <!-- start jobs dection -->
+    <section class="academy-features">
+        <div class="container">
+            <div class="row" style=" margin-left: -15px; margin-right: -15px;">
+                <div class="col-12 certificate">
+                    <div class="row" style=" margin-left: -15px; margin-right: -15px;">
+                        <div class="col-xs-12 col-md-6 col-l-5 certificate-image ">
+                            <img src="assets/img/teacher.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 certificate-content">
+                            <h3>صرفه جویی در زمان، با تدریس اساتید مجرب</h3>
+                            <p>مدرسین اکادمی سون لرن، همگی افرادی هستند که تجربه کاری در بزرگترین شرکت های حوزه
+                                فناوری ایران همانند دیجی کالا، نت برگ، پارسپک و ... را دارند و می توانند با
+                                انتقال تجربه های ارزشمندشان، در زمان شما صرفه جویی کنند!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 quiz">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-l-5 quiz-image">
+                            <img src="assets/img/updates.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 quiz-content">
+                            <h3>آپدیت های همیشگی <span class="h-badge">ویژه دوره های متخصص</span></h3>
+                            <p>در صورتی که در دوره های متخصص به صورت کامل ثبت نام نمایید، آپدیت های این دوره
+                                ها را به مدت ۶ ماه به صورت رایگان دریافت خواهید کرد.</p>
+                            <a href="#">دوره های متخصص سون لرن</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 certificate">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-l-5 certificate-image">
+                            <img src="assets/img/webinar.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 certificate-content">
+                            <h3>حفظ تعامل با برگزاری وبینارهای ماهانه <span class="h-badge">ویژه دوره های متخصص</span>
+                            </h3>
+                            <p>در دوره های متخصص هر ماه یک وبینار زنده برای تعامل و پرسش و پاسخ با مدرسین خواهید
+                                داشت و می توانید سوالات خود را مستقیما از مدرس بپرسید و پاسخ بگیرید.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 quiz">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-l-5 quiz-image">
+                            <img src="assets/img/certificate.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 quiz-content">
+                            <h3>ارزیابی و صدور گواهی آنلاین <span class="h-badge">ویژه دوره های متخصص</span></h3>
+                            <p>در انتهای دوره یک گواهی آنلاین برای دانشجویان دوره های متخصص صادر خواهد شد که ارزیابی
+                                مهارت و تخصص آنها در آن مشخص می باشد.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 certificate">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-l-5 certificate-image">
+                            <img src="assets/img/hire.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 certificate-content">
+                            <h3>معرفی به بازار کار پس از دریافت تائیدیه فنی <span class="h-badge">ویژه دوره های
+                                    متخصص</span>
+                            </h3>
+                            <p>ما در انتهای دوره های متخصص دانشجویان تائید شده را برای اشتغال به کار به شرکت های
+                                مطرح حوزه فناوری معرفی خواهیم کرد.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 quiz">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-l-5 quiz-image">
+                            <img src="assets/img/refund.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 quiz-content">
+                            <h3>گارانتی بازگشت وجه <span class="h-badge">ویژه دوره های متخصص</span></h3>
+                            <p>ما از کیفیت محتوا و خدمات خود مطمئن هستیم. در صورتی که در دوره های متخصص ثبت نام
+                                نمایید تا 1 ماه پس از ثبت نام و در صورتی که حداکثر 25% محتوای دوره را دیده باشید، می
+                                توانید از گارانتی بازگشت وجه استفاده نمایید.</p>
+                            <a href="#">دوره های متخصص سون لرن</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- end jobs section -->
+
+    <!-- start footer section -->
+    <footer id="footer" class="container">
+        <div class="row">
+            <div class="col-12 col-xl-7 footer-content">
+                <div class="footer-content-inner">
+                    <div class="copyright">
+                        <a href="#" class="logo"><img src="assets/img/logo-footer.png" alt="academy"></a>
+                        <p>هدف مجموعه سون لرن افزایش سطح کیفیت آموزش و راهی برای ورود دانشجویان به بازار کار تخصصی است
+                        </p>
+                    </div>
+                    <div class="social">
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#">صفحه اصلی</a></li>
+                            <li><a href="#">پایگاه دانش</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">ارتباط با ما</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-12 col-xl-5 footer-contact">
+                <div class="footer-contact-inner">
+                    <p class="address">بدلیل شرایط حساس کنونی و شیوع کرونا تیم سون لرن تا اطلاع ثانوی به صورت دورکار
+                        فعالیت دارد.</p>
+                    <p class="tel">
+                        تلفن <a href="tel:۰۲۱۲۸۴۲۷۷۵۰">0211234567</a>
+                        پشتیبانی تلگرام <a style="direction:ltr;display: inline-block;" href="#">@sup_7Learn</a>
+                    </p>
+                    <div class="licenses">
+                        <img src="assets/img/sep.png">
+                        <img src="assets/img/nashr-d3.png">
+                        <img id="jxlzjzpeesgtnbqefukzjzpe" style="cursor:pointer" alt="logo-samandehi"
+                            src="assets/img/logo.png">
+                        <img class="clickable" alt="" src="assets/img/enamad.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="col-12 col-xl-12 develop-by">
+        ساخته شده با <i class="fas fa-heart color-hearth" title="عشق"></i>و <i class="fas fa-coffee size-coffe"
+            title="انرژی"></i> توسط
+        دانشجویان آکادمی سون لرن
+    </div>
+    <!-- end footer section -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

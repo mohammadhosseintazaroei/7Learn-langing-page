@@ -1,0 +1,47 @@
+.route {
+  background-color: #fff;
+  padding: 50px 0;
+  border-bottom: 2px solid #e8ecef;
+}
+.route .route-heading h2 {
+  color: #566c7b;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+.route .route-content {
+  margin: 50px 0;
+
+}
+.route .route-content-item {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.route .route-content-inner {
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid #f0f4f6;
+  background-color: #f6f9fb;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  min-width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.route .route-content-inner .route-content-item-inner-icon {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+.route .route-content-inner .route-content-inner-title {
+  text-align: center;
+  margin-top: 13px;
+  font-weight: 700;
+  color: #4e5b64;
+}
