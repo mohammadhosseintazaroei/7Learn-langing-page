@@ -7,7 +7,9 @@
 @import "_footer.css";
 @import "_darkmode.css";
 
-
+* {
+  color:red
+}
 @font-face {
   font-family: Vazir;
   src: url("../fonts/Vazir.eot") format("eot"),
