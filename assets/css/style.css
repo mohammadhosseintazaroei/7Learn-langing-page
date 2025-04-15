@@ -1,10 +1,10 @@
-@import "_topmenu.css";
-@import "_nav.css";
-@import "_header.css";
-@import "_route.css";
-@import "_jobs.css";
+@import "topmenu.css";
+@import "nav.css";
+@import "header.css";
+@import "route.css";
+@import "jobs.css";
 @import "academy.css";
-@import "_footer.css";
+@import "footer.css";
 @import "darkmode.css";
 
 @font-face {
