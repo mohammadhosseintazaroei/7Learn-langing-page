@@ -5,7 +5,7 @@
 @import "_jobs.css";
 @import "academy.css";
 @import "_footer.css";
-@import "_darkmode.css";
+@import "darkmode.css";
 
 * {
   color:red
